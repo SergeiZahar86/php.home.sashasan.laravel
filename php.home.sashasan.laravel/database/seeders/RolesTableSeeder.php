@@ -1,27 +1,31 @@
 <?php
 
-    use Illuminate\Database\Seeder;
+namespace Database\Seeders;
 
-    class RolesTableSeeder extends Seeder
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+
+class RolesTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
     {
-        /**R
-         * Run the database seeds.
-         *
-         * @return void
-         */
-        public function run()
-        {
-            $data = [
-                [
-                    'name' => 'disabled',
-                ],
-                [
-                    'name' => 'user',
-                ],
-                [
-                    'name' => 'admin',
-                ],
-            ];
-            DB::table('roles')->insert($data);
-        }
+        $data = [
+            [
+                'name' => 'disabled',
+            ],
+            [
+                'name' => 'user',
+            ],
+            [
+                'name' => 'admin',
+            ],
+        ];
+        DB::table('roles')->insert($data);
     }
+}
