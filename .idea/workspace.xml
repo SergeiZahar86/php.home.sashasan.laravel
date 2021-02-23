@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c7010d-221e-4fff-a7e8-d127387f6e6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.home.sashasan.laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.home.sashasan.laravel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2018_03_17_130122_create_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_072703_create_meta_tags_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_083700_create_user_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_083812_create_attribute_groups_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_083857_create_attribute_values_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_083938_create_attribute_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084002_create_brands_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084030_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084109_create_currencies_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084134_create_galleries_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084159_create_orders_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084228_create_order_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084249_create_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084319_create_related_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_06_09_014818_create_admin_order_widgets_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2018_04_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2018_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +52,20 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1orxysvhfif8xl9j9stDr0wgfcx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webdev.youtube.laravel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +75,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\php.home.sashasan.laravel\php.home.sashasan.laravel\database\migrations" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,6 +95,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="87" key="#CLI_Interpreters" timestamp="1614060303757">
@@ -96,5 +126,9 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="308" y="77" key="SettingsEditor/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614062056752" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614062979983">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614062979983" />
   </component>
 </project>
