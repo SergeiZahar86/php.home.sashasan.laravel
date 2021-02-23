@@ -2,25 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c7010d-221e-4fff-a7e8-d127387f6e6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2018_03_17_130122_create_roles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_072703_create_meta_tags_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_083700_create_user_roles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_083812_create_attribute_groups_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_083857_create_attribute_values_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_083938_create_attribute_products_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084002_create_brands_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084030_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084109_create_currencies_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084134_create_galleries_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084159_create_orders_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084228_create_order_products_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084249_create_products_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_05_24_084319_create_related_products_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_06_09_014818_create_admin_order_widgets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2018_03_17_130122_create_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2018_04_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2018_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_072703_create_meta_tags_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_083700_create_user_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_083812_create_attribute_groups_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_083857_create_attribute_values_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_083938_create_attribute_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_084002_create_brands_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_084030_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_084109_create_currencies_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_084134_create_galleries_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_084159_create_orders_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_084228_create_order_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_084249_create_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_05_24_084319_create_related_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/migrations/2019_06_09_014818_create_admin_order_widgets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/AdminOrderProductsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/AttributeGroupsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/AttributeProductsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/AttributeValuesSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/BrandsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/CategoriesSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/CurrenciesSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/GalleriesSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/OrdersSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/ProductsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/RelatedProductsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/RolesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/UserRolesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/MY_Data/laravel.admin.database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/AdminOrderProductsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/AttributeGroupsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/AttributeProductsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/AttributeValuesSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/BrandsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/CategoriesSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/CurrenciesSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/GalleriesSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/OrdersSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/ProductsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/RelatedProductsSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/RolesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/UserRolesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/UsersTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2018_04_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2018_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +95,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/php.home.sashasan.laravel/database/migrations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,11 +103,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\php.home.sashasan.laravel\php.home.sashasan.laravel\database\seeders" />
       <recent name="C:\OpenServer\domains\php.home.sashasan.laravel\php.home.sashasan.laravel\database\migrations" />
     </key>
   </component>
@@ -91,6 +122,14 @@
       <updated>1614058771270</updated>
       <workItem from="1614058774154" duration="4045000" />
     </task>
+    <task id="LOCAL-00001" summary="migrate">
+      <created>1614073518232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614073518232</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +138,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="migrate" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrate" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="87" key="#CLI_Interpreters" timestamp="1614060303757">
@@ -110,6 +150,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="392" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614062822863" />
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1614073517201">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="240" y="0" key="CommitChangelistDialog2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614073517201" />
     <state x="579" y="187" key="FileChooserDialogImpl" timestamp="1614060358806">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -122,13 +166,13 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="560" y="127" key="Github.UntrackedFilesDialog/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614059407420" />
-    <state x="308" y="77" key="SettingsEditor" timestamp="1614062056752">
+    <state x="308" y="77" key="SettingsEditor" timestamp="1614085461704">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="308" y="77" key="SettingsEditor/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614062056752" />
-    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614062979983">
+    <state x="308" y="77" key="SettingsEditor/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614085461704" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614073522874">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="392" y="165" key="Vcs.Push.Dialog.v2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614062979983" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614073522874" />
   </component>
 </project>
