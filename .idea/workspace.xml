@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c7010d-221e-4fff-a7e8-d127387f6e6c" name="Default Changelist" comment="migrate">
-      <change beforePath="$PROJECT_DIR$/.idea/php.home.sashasan.laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.home.sashasan.laravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="19c7010d-221e-4fff-a7e8-d127387f6e6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/ProductsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/php.home.sashasan.laravel/database/seeders/ProductsSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +151,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
@@ -184,7 +181,7 @@
       <updated>1614058771270</updated>
       <workItem from="1614058774154" duration="4045000" />
       <workItem from="1614208295404" duration="201000" />
-      <workItem from="1614348606368" duration="1021000" />
+      <workItem from="1614348606368" duration="4473000" />
     </task>
     <task id="LOCAL-00001" summary="migrate">
       <created>1614073518232</created>
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614085996538</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="seed">
+      <created>1614349696506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614349696506</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +214,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
     <MESSAGE value="migrate" />
-    <option name="LAST_COMMIT_MESSAGE" value="migrate" />
+    <MESSAGE value="seed" />
+    <option name="LAST_COMMIT_MESSAGE" value="seed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="87" key="#CLI_Interpreters" timestamp="1614060303757">
@@ -221,18 +226,25 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="426" y="110" key="#Inspections/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614088415663" />
-    <state x="392" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614062822863">
+    <state x="392" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614352350996">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="392" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614062822863" />
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1614090430100">
+    <state x="392" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1474.864@62.0.1474.864" timestamp="1614352350996" />
+    <state x="559" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614352220219">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="559" y="234" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1474.864@62.0.1474.864" timestamp="1614352220219" />
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1614349695498">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="240" y="0" key="CommitChangelistDialog2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614090430100" />
-    <state x="579" y="187" key="FileChooserDialogImpl" timestamp="1614089967064">
+    <state x="240" y="0" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1614349695498" />
+    <state x="579" y="187" key="FileChooserDialogImpl" timestamp="1614352326212">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="579" y="187" key="FileChooserDialogImpl/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614089967064" />
+    <state x="579" y="187" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1614352326212" />
     <state x="635" y="330" width="471" height="204" key="Github.ShareDialog" timestamp="1614059399540">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -245,9 +257,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="308" y="77" key="SettingsEditor/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614085461704" />
-    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614090435128">
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614349699702">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1614090435128" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1614349699702" />
   </component>
 </project>
